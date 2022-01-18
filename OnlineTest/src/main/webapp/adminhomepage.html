@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Page</title>
+<style>
+body
+{
+background-color:Grey;
+}
+h1
+{
+  background-color: DarkOrange;
+  color:white;
+  font-size:80px;
+}
+h2
+{
+  font-size:60px;
+  color:white;
+}
+h3
+{
+  color:black;
+  font-size:30px;
+}
+a 
+{
+  text-decoration: none;
+  color: black;
+}
+p
+{
+font-size:20px;
+position:absolute;
+top: 0;
+right:0;
+}
+table
+{
+  width:800px;
+  border-spacing: 50px;
+}
+td
+{
+  background-color:GreenYellow;
+  color: white;
+  height:50px;
+  width:250px;
+  font-size:30px;
+}
+tr{
+  height:20px;
+  
+  }
+button
+{
+  background-color:GreenYellow;
+  font-size:30px;
+  height:50px;
+  width:250px;
+  border:GreenYellow;
+  font-weight: bold;
+  color:Black
+}
+</style>
+</head>
+
+<body>
+<h1><center>SmallDay IT</center></h1>
+<h3 align="right"><a href="signout.html">Sign Out</a></h3>
+<h2><center>Welcome admin</center></h2>
+<form method="post" action="OATController">
+<table align="center">
+<tr>
+<td><button type="submit" name="profile" formaction="OATController" formtaget="_self">Your Profile</button></td>
+<td align="center"><b><a href="studentdetails.html">Add Student</b></td>
+</tr>
+<tr>
+<td align="center"><b><a href="savedquestions.html">ADD Questions</b></td>
+<td><button type="submit" name="questionpapers" formaction="OATController" formtaget="_self">Create Q.Paper</button></td>
+</tr>
+<tr>
+<td align="center"><b><a href="resetpassword.html">Reset Password</b></td>
+<td><button type="submit" name="progress" formaction="OATController" formtaget="_self">Progress</button></td>
+</tr>
+</table>
+</body>
+
+
+</html>
