@@ -1,5 +1,5 @@
 # Online-Aptitute-Test
-This Project is done using Java, Jsp, html, phpmyadmin as database
+This Project is done using Java, Jsp, html, phpmyadmin as database.
 In this project admin has control over the examination it means he can create an exam and view the score of the students who attended the exam
 # Role of Admin:
   * Admin can add Student
